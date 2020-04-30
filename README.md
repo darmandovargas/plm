@@ -1,4 +1,4 @@
-# Flutter Register Test
+# Flutter Register PLM Test
 
 Flutter Register Test App
 
@@ -27,6 +27,9 @@ Flutter pub get
 
 Flutter run
 
-![](screenshot-1.png?raw=true)
-![](screenshot-2.png?raw=true)
-![](screenshot-3.png?raw=true)
+## Imágenes
+![](https://github.com/darmandovargas/plm/blob/master/Screenshot_20200429-201412.jpg)
+![](https://github.com/darmandovargas/plm/blob/master/Screenshot_20200429-201653.jpg)
+![](https://github.com/darmandovargas/plm/blob/master/Screenshot_20200429-201657.jpg)
+
+
