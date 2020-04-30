@@ -27,9 +27,9 @@ Flutter pub get
 
 Flutter run
 
-![](https://github.com/darmandovargas/plm/blob/master/Screenshot_20200429-200704.jpg?raw=true)
-![](https://github.com/darmandovargas/plm/blob/master/Screenshot_20200429-201412.jpg?raw=true)
-![](https://github.com/darmandovargas/plm/blob/master/Screenshot_20200429-201653.jpg?raw=true)
-![](https://github.com/darmandovargas/plm/blob/master/Screenshot_20200429-201657.jpg?raw=true)
+![](https://github.com/darmandovargas/plm/blob/master/Screenshot_20200429-200704.jpg)
+![](https://github.com/darmandovargas/plm/blob/master/Screenshot_20200429-201412.jpg)
+![](https://github.com/darmandovargas/plm/blob/master/Screenshot_20200429-201653.jpg)
+![](https://github.com/darmandovargas/plm/blob/master/Screenshot_20200429-201657.jpg)
 
 
