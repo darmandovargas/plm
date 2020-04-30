@@ -342,30 +342,30 @@ class _RegisterState extends State<Register> {
 
   check() {
     final form = _key.currentState;
-    showDialog(
-      context: context,
-      builder: (context) => AlertDialog(
-        content: SingleChildScrollView(
-          child: ListBody(
-            children: <Widget>[
-              new Image.asset("assets/images/alert.png", height: 50, width: 50),
-              Padding(
-                padding: const EdgeInsets.only(right: 0, left: 0, top: 15, bottom: 0),
-                child: Text("User successfuly registered"),
-              )
-            ],
-          ),
-        ),
-        actions: <Widget>[
-          FlatButton(
-            //color: Colors.green,
-            child: Text('Cerrar'),
-            onPressed: () => Navigator.of(context).pop(),
-          ),
-        ],
-      ),
-    );
     if (form.validate()) {
+      showDialog(
+        context: context,
+        builder: (context) => AlertDialog(
+          content: SingleChildScrollView(
+            child: ListBody(
+              children: <Widget>[
+                new Image.asset("assets/images/alert.png", height: 50, width: 50),
+                Padding(
+                  padding: const EdgeInsets.only(right: 0, left: 0, top: 15, bottom: 0),
+                  child: Text("User successfuly registered"),
+                )
+              ],
+            ),
+          ),
+          actions: <Widget>[
+            FlatButton(
+              //color: Colors.green,
+              child: Text('Cerrar'),
+              onPressed: () => Navigator.of(context).pop(),
+            ),
+          ],
+        ),
+      );
       form.save();
       save();
     }
